@@ -49,8 +49,8 @@ header{
     z-index: 99;
     position: fixed;
     background-color: #fff;
-    border-bottom: 3px solid #017fcd;
     width: 100%;
+    border-bottom: 2px solid #017fcd;
 }
 .logo ,.nav{
     display: table-cell;
@@ -69,7 +69,7 @@ header{
     margin:0 10px;
 }
 .nav li a.active{
-    background-color:#017fcd;
+    background-color: #017fcd;
     color: #fff;
 }
 .nav li.active a{
@@ -77,7 +77,7 @@ header{
 }
 footer{
     width: 100%;
-    background: #017fcd;
+    background: #5b5b5b;
     height: 220px;
     overflow: hidden;
     padding-top: 20px;
@@ -106,7 +106,7 @@ footer .container{overflow: hidden}
     float: left;
     margin: 10px 20px;
 }
-nav{
+/*nav{
     position: fixed;
     right:0;
     bottom:5%;
@@ -118,37 +118,36 @@ nav{
     background-position: center top;
     height: 39px;
     width: 82px;
-}
+}*/
 /**/
 .flexslider {
-    margin: 89px auto 20px;
+    margin: 88px auto 0;
     position: relative;
     width: 100%;
     color:#fff;
     height:580px;
-    border-top:3px solid #017fcd;
     overflow: hidden;
     background: url(../image/main-visual-bg.jpg) no-repeat fixed ;
     background-size: cover;
 }
 .flexslider .h2-title{
-    font-size: 75px;
+    font-size: 56px;
     font-weight: bold;
 }
-.flexslider .flex-box{
-    position: absolute;
-    bottom:0;
-    letter-spacing: 0.02rem;
-    padding:34px 0;
-    width: 100%;
-    background-color:rgba(0, 0, 0, 0.34);
-}
+/*.flexslider .flex-box{
+     position: absolute;
+     bottom:0;
+     letter-spacing: 0.18rem;
+     padding:84px 0;
+     width: 100%;
+     background-color: rgba(96, 91, 80, 0.34);
+ }*/
 .flexslider .flex-try{
-    display: block;
-    width: 200px;
-    color: #f6fff7;
-    padding:15px 20px ;
-    background-color: #de232f;
+    width: 400px;
+    color: #74bcff;
+    padding: 20px ;
+    background-color: rgba(192, 192, 192, 0.6);
+    box-shadow:1px 1px 5px rgba(223, 223, 223, 0.3);
     margin:50px auto 0;
 }
 .h3-title{
@@ -184,9 +183,18 @@ nav{
 .box{
     text-align: center;
     padding:60px 0;
-    border-bottom: 3px dashed #a7d3f0;
+}
+.box  .box-href{
+    width: 300px;
+    padding:5px;
+    margin:0 auto;
+    display: block;
+    letter-spacing: 0.5rem;
+    background-color: #f05255;
+    color: #fff;
 }
 .main-bc{
+    background: url(../image/o_bg6.jpg) fixed bottom;
     background-color: #faf8f8;
 }
 .tit span {
